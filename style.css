@@ -69,3 +69,7 @@ body {
     background-size: cover;
 
 }
+
+.text-center {
+    text-align: center;
+}
