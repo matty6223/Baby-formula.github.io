@@ -70,6 +70,14 @@ body {
 
 }
 
+.border-box {
+    border: 5px solid rgb(240, 240, 240);
+    border-radius: 1%;
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    margin: 10px 100px 100px 100px;
+}
+
 .text-center {
     text-align: center;
 }
