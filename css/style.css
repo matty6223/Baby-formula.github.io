@@ -15,6 +15,8 @@ body {
     background-color: rgb(240, 240, 240);
     padding: 10px;
     border-radius: 5px;
+    position: absolute;
+    width: 100px;
 }
 .btn:hover{
     border: 3px solid rgb(218, 218, 218);
@@ -22,11 +24,9 @@ body {
 }
 
 .btn-container{
-    margin-top: 25%;
     position: absolute;
-    bottom: 10px;
-    left: 25%;
-    right: 25%;
+    right: 300px;
+    bottom: 65px;
 }
 
 .navbar {
@@ -76,7 +76,7 @@ body {
     background-color: rgb(247, 247, 247);
     text-align: center;
     min-height: 650px;
-    height: 800px;
+    height: 900px;
     padding: 0 20px 0 20px;
     position: relative;
 }
