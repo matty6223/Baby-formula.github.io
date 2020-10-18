@@ -109,3 +109,11 @@ body {
 .heading-lg{
     font-size: 50px;
 }
+
+.heading-md{
+    font-size: 40px;
+}
+
+.heading-sml{
+    font-size: 30px;
+}
