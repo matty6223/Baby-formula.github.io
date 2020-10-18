@@ -101,6 +101,25 @@ body {
     margin: 10px 100px 100px 100px;
 }
 
+.styled-table {
+   border: thin solid rgb(223, 223, 223);
+   border-radius: 1%;
+   border-collapse: collapse;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #dbdbdb;
+    text-align: left;
+    text-align: center;
+}
+
+.styled-table td{
+    padding: 20px 20px;
+    width: 300px;
+}
+
+
 /* utility classes */
 .text-center {
     text-align: center;
