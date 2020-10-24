@@ -74,6 +74,7 @@ body {
     border: 5px solid rgb(235, 235, 235);
     border-radius: 2%;
     background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     text-align: center;
     min-height: 650px;
     height: 900px;
