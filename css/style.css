@@ -49,6 +49,10 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
+.active{
+    background-color: rgb(238, 238, 238);
+}
+
 .navbar li a{
     text-align: center;
     text-decoration: none;
@@ -92,6 +96,14 @@ body {
     border: 3px solid rgba(32, 33, 36, 0.7);
     background-size: cover;
 
+}
+
+.report-img{
+    display: block;
+    height: 175px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .border-box {
