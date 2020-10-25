@@ -31,7 +31,6 @@ body {
 
 .navbar {
     background-color: rgb(247, 247, 247);
-    border-bottom: 1px solid rgb(240, 240, 240) ;
     list-style-type: none;
     margin: 0;
     padding: 0 100px 0 100px;
