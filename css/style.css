@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(233, 233, 233);
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -61,6 +61,34 @@ body {
 
 .active {
     background-color: rgb(235, 235, 235);
+}
+
+.mini-navbar{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    /* border: 5px solid rgb(247, 247, 247); */
+    border-radius: 1%;
+    list-style-type: none;
+    margin: 0 150px 0 150px;
+    padding: 0 100px 0 100px;
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mini-navbar li {
+    display: inline-block;
+    padding: 1% 0 1% 0;
+}
+
+.mini-navbar li a {
+    text-align: center;
+    text-decoration: none;
+    color: #202124;
+}
+
+.mini-navbar li:hover{
+    background-color: rgb(224, 224, 224);
 }
 
 .AboutUs {
