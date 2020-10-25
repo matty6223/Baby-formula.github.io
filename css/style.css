@@ -142,10 +142,10 @@ body {
 .list-container-sml li{
     margin-left: auto;
     margin-right: auto;
-    text-align: start;
+    text-align: center;
     padding: 3px 0 3px 0;
     min-width: 00px;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 
