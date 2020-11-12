@@ -1,4 +1,4 @@
-function overviewPage() {
+  function overviewPage() {
         //used to remove active class from navbar
     var navLink1 = document.getElementById("navLink1");
     var navLink2 = document.getElementById("navLink2");
