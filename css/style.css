@@ -46,13 +46,14 @@ body {
     background-color: rgb(247, 247, 247);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     /* border: 5px solid rgb(247, 247, 247); */
+    border: 5px solid rgb(240, 240, 240);
     border-radius: 1%;
     list-style-type: none;
     margin: 0 150px 0 150px;
     padding: 0 100px 0 100px;
     /* overflow: hidden; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .mini-navbar li {

@@ -6,21 +6,18 @@
     <title>Team A2-2</title>
     <link  rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
 </head>
-<style>
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-</style>
 <body>
+
     <!-- Navbar -->
     <ul class="navbar">
-        <li class="active">
+        <li>
             <a href="index.html"><p>Home</p></a>
         </li>
-        <li>
-            <a href="projectIdea.html"><p>Project: Find A Teacher</p></a>
+        <li class="active">
+            <a href="projectIdea.html"><p>Find A Teacher</p></a>
         </li>
         <li>
             <a href="groupReflection.html"><p>Group Reflection</p></a>
@@ -30,9 +27,79 @@
         </li>
     </ul>
 
-    <h1 class="heading-lg">Project: Find A Teacher</h1>
+    <h1 class="heading-lg text-center">Find A Teacher</h1>
+    <ul class="mini-navbar">
+        <li id="navLink1" class="active"><a href="#" onclick="overviewPage()"><p>Overview</p></a></li>
+        <li id="navLink2" ><a  href="#" onclick="aimsPage()"><p>Aims</p></a></li>
+        <li id="navLink3" ><a  href="#" onclick="plansPage()"><p>Plans/Progress</p></a></li>
+        <li id="navLink4" ><a href="#" onclick="rolesPage()"><p>Roles</p></a></li>
+        <li id="navLink5" ><a href="#" onclick="scopePage()"><p>Scope</p></a></li>
+        <li id="navLink6" ><a href="#" onclick="toolsPage()"><p>Tools</p></a></li>
+        <li id="navLink7" ><a href="#" onclick="testingPage()"><p>Testing</p></a></li>
+        <li id="navLink8" ><a href="#" onclick="timeframePage()"><p>Timeframe</p></a></li>
+        <li id="navLink9" ><a href="#" onclick="risksPage()"><p>Risks</p></a></li>
+        <li id="navLink10" ><a href="#" onclick="groupPage()"><p>Group processes</p></a></li>
+    </ul>
+    <div class="border-box text-center">
+            <!-- Overview -->
+        <div id="overview">        
+            <h2 class="heading-md">Overview</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, nulla.</p>
+        </div>
 
-    <div class="border-box">
-        
+            <!-- Aims -->
+        <div id="Aims" style="display: none;">        
+            <h3 class="heading-sml">Aims</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, tempora.</p>
+        </div>
+
+            <!-- Plans and Progress -->
+        <div id="Plans" style="display: none;">        
+            <h3 class="heading-sml">Plans and Progress</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, qui!</p>
+        </div>
+
+            <!-- Roles -->
+        <div id="Roles" style="display: none;">
+            <h3 class="heading-sml">Roles</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, voluptatum!</p>
+        </div>
+
+            <!-- Scope and Limits -->
+        <div id="Scope" style="display: none;">
+            <h3 class="heading-sml">Scope and Limits</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, odio!</p>
+        </div>
+
+            <!-- Tools and Technologies -->
+        <div id="Tools" style="display: none;">
+            <h3 class="heading-sml">Tools and Technologies</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quaerat?</p>
+        </div>
+
+            <!-- Testing -->
+        <div id="Testing" style="display: none;">
+            <h3 class="heading-sml">Testing</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, molestias.</p>
+        </div>
+
+            <!-- Timeframe -->
+        <div id="Timeframe" style="display: none;">
+            <h3 class="heading-sml">Timeframe</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, eius?</p>
+        </div>
+
+            <!-- Risks -->
+        <div id="Risks" style="display: none;">
+            <h3 class="heading-sml">Risks</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ea.</p>
+        </div>
+
+            <!-- Group processes and communications -->
+        <div id="Group" style="display: none;">
+            <h3 class="heading-sml">Group processes and communications</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eum.</p>
+        </div>
     </div>
+    <script src="./JS/ToggleElement.js"></script>
 </body>
