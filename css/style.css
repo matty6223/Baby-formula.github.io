@@ -206,6 +206,11 @@ body {
     max-width: 500px;
 }
 
+.shrink{
+    /* text-align: center; */
+    margin: 0 auto 0 auto;
+    max-width: 80%;
+}
 
 /* utility classes */
 .text-center {
@@ -225,7 +230,16 @@ body {
     color: #696b6e;
 }
 
+.heading-smlr{
+    font-size: 30px;
+    color: #909294;
+}
+
 .references{
     color: #5b5d61;
     font-size: 16px;
+}
+
+.underline{
+    text-decoration: underline;
 }
