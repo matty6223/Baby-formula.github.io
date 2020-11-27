@@ -206,6 +206,15 @@ body {
     max-width: 500px;
 }
 
+.list-container-smlr li{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    min-width: 00px;
+    max-width: 300px;
+}
+
 .shrink{
     /* text-align: center; */
     margin: 0 auto 0 auto;
